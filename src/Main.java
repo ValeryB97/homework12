@@ -5,12 +5,10 @@ public class Main {
         Author chekhov = new Author("Антон", "Чехов");
         Book chameleon = new Book("Хамелеон", chekhov, 1884);
         System.out.println(captainDaughter.getNameBook());
-        System.out.print(captainDaughter.getAuthor().getFirstName() + " ");
-        System.out.println(captainDaughter.getAuthor().getLastName());
+        System.out.println(captainDaughter.getAuthor());
         System.out.println(captainDaughter.getPublishingYear());
         System.out.println(chameleon.getNameBook());
-        System.out.print(chameleon.getAuthor().getFirstName() + " ");
-        System.out.println(chameleon.getAuthor().getLastName());
+        System.out.println(chameleon.getAuthor());
         System.out.println(chameleon.getPublishingYear());
         chameleon.setPublishingYear(1985);
         System.out.println(chameleon.getPublishingYear());
